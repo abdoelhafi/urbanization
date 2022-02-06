@@ -43,6 +43,13 @@ Il apparait clairement que le sous-objectif d’opérer comme une seule entrepri
 # LA VISION FONCTIONNELLE
 
 ## La démarche de passage de la vision  métier vers la vision fonctionnelle
+* Les principes du passage de la vue métier à la vue fonctionnelle :
+* Remplacer une activité dans le diagramme de processus par 0 à n BF qui l'automatisent.
+* Faire correspondre un BF à 1 ou N activités si nécessaire.
+* Unicité des blocs : îlots 1 quartier de la zone.
+* Synchronisme : un îlot peut traiter un événement immédiatement sans se soucier du sort du
+du rapport de traitement du précédent.
+* Ancrage : un bloc doit disposer d'un socket capable d'activer ses services et de gérer les communications d'entrée/sortie.
 
 * Mettre en commun les informations internes   afin   d’optimiser   les échanges opérationnels du groupe 
 * Créer  une  zone  «référentiel»  qui devra contenir un référentiel commun aux  entités
